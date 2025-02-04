@@ -1,0 +1,49 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+       width: 500px;
+       padding: 50px;
+       background-color: antiquewhite;
+       border-radius: 10px;
+       border: 2px solid rgb(251, 131, 151);
+       box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+       text-align: center;
+}
+h2{
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.love-calculator{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 95%;
+    margin-top: 10px;
+    padding: 5px;
+    color: hotpink;
+}
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: pink;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom:10px ;
+}
